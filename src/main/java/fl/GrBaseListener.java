@@ -186,7 +186,6 @@ public class GrBaseListener implements GrListener {
 	@Override public void visitTerminal(TerminalNode node) {
         for (int j = 0; j < i; j++) System.out.print(" ");
         System.out.println(node);
-
     }
 	/**
 	 * {@inheritDoc}
